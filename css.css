@@ -1,0 +1,52 @@
+	* {
+  box-sizing: border-box;
+}
+.body
+{
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+  border:solid;
+}
+
+.column {
+  float: left;
+  
+  height: 1230px;
+}
+
+.left {
+  width: 20%;
+  color: white;
+  padding-left: 7px;
+}
+
+.right {
+  width: 45%;
+  color: #191970;opacity: 0.8;
+
+
+}
+.left1 {
+  float: left;
+  width: 450px;
+  height: 250px;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.intro
+{
+	background-color: grey;
+	opacity: 0.8;
+	height: 160px;
+	width: 100%;
+}
+.hr{
+	background-color:#191970;opacity: 0.8 ;
+	display: inline;
+}
